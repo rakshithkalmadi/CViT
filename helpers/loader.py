@@ -9,18 +9,23 @@ from augmentation import Aug
 
 mean = [0.485, 0.456, 0.406] #[0.4718, 0.3467, 0.3154] DFDC dataset mean and standard 
 std = [0.229, 0.224, 0.225]  #[0.1656, 0.1432, 0.1364]
+# Set the desired size
+desired_size = (224, 224)
 
 data_transforms = {
     'train': transforms.Compose([
         Aug(),
+        transforms.Resize(desired_size),
         transforms.ToTensor(),
         transforms.Normalize(mean, std)
     ]),
     'validation': transforms.Compose([
+        transforms.Resize(desired_size),
         transforms.ToTensor(),
         transforms.Normalize(mean, std)
     ]),
     'test': transforms.Compose([
+        transforms.Resize(desired_size),
         transforms.ToTensor(),
         transforms.Normalize(mean, std)
     ]),

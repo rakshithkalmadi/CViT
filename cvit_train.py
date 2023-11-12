@@ -260,6 +260,8 @@ def train_gpu(model, criterion, optimizer, scheduler, num_epochs, min_val_loss):
                 print('Validation loss decreased ({:.6f} --> {:.6f}).  Saving model ...'.format(epoch_loss, min_loss))
                 min_loss = epoch_loss
                 best_model_wts = copy.deepcopy(model.state_dict())
+                
+
 
     time_elapsed = time.time() - since
     print('Training complete in {:.0f}m {:.0f}s'.format(time_elapsed // 60, time_elapsed % 60))
@@ -276,6 +278,7 @@ def train_gpu(model, criterion, optimizer, scheduler, num_epochs, min_val_loss):
              'optimizer': optimizer.state_dict(),
              'min_loss':epoch_loss}
     torch.save(state, 'weight/cvit_deepfake_detection_v2.pth')
+    torch.save(model.state_dict(), 'weight/deepfake_cvit_gpu_inference_ep_50.pth')
     test(model)
     return train_loss,train_accu,val_loss,val_accu, min_loss
 
