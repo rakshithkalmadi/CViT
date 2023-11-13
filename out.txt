@@ -1,0 +1,88 @@
+Epoch 0/9
+----------
+train  loss: 0 : 0.7324396967887878
+Train Epoch: 0 [0/1981 (0%)]	Loss: 0.732440
+train Loss: 0.8018 Acc: 0.5119
+validation  loss: 0 : 0.7709375619888306
+Train Epoch: 0 [0/1981 (0%)]	Loss: 0.770938
+validation Loss: 0.7340 Acc: 0.4977
+Validation loss decreased (0.733986 --> 10000.000000).  Saving model ...
+Epoch 1/9
+----------
+train  loss: 0 : 0.810548722743988
+Train Epoch: 1 [0/1981 (0%)]	Loss: 0.810549
+train Loss: 0.7458 Acc: 0.5204
+validation  loss: 0 : 0.7025879621505737
+Train Epoch: 1 [0/1981 (0%)]	Loss: 0.702588
+validation Loss: 0.7227 Acc: 0.5275
+Validation loss decreased (0.722712 --> 0.733986).  Saving model ...
+Epoch 2/9
+----------
+train  loss: 0 : 0.709442675113678
+Train Epoch: 2 [0/1981 (0%)]	Loss: 0.709443
+train Loss: 0.7356 Acc: 0.5220
+validation  loss: 0 : 0.7121766805648804
+Train Epoch: 2 [0/1981 (0%)]	Loss: 0.712177
+validation Loss: 0.7131 Acc: 0.5073
+Validation loss decreased (0.713073 --> 0.722712).  Saving model ...
+Epoch 3/9
+----------
+train  loss: 0 : 0.7919538617134094
+Train Epoch: 3 [0/1981 (0%)]	Loss: 0.791954
+train Loss: 0.7232 Acc: 0.5023
+validation  loss: 0 : 0.7182703018188477
+Train Epoch: 3 [0/1981 (0%)]	Loss: 0.718270
+validation Loss: 0.7109 Acc: 0.5033
+Validation loss decreased (0.710929 --> 0.713073).  Saving model ...
+Epoch 4/9
+----------
+train  loss: 0 : 0.7924959063529968
+Train Epoch: 4 [0/1981 (0%)]	Loss: 0.792496
+train Loss: 0.7177 Acc: 0.5068
+validation  loss: 0 : 0.752669095993042
+Train Epoch: 4 [0/1981 (0%)]	Loss: 0.752669
+validation Loss: 0.7220 Acc: 0.4750
+Epoch 5/9
+----------
+train  loss: 0 : 0.7276737093925476
+Train Epoch: 5 [0/1981 (0%)]	Loss: 0.727674
+train Loss: 0.7149 Acc: 0.5134
+validation  loss: 0 : 0.726869523525238
+Train Epoch: 5 [0/1981 (0%)]	Loss: 0.726870
+validation Loss: 0.7243 Acc: 0.4866
+Epoch 6/9
+----------
+train  loss: 0 : 0.7563081979751587
+Train Epoch: 6 [0/1981 (0%)]	Loss: 0.756308
+train Loss: 0.7106 Acc: 0.5462
+validation  loss: 0 : 0.7127320170402527
+Train Epoch: 6 [0/1981 (0%)]	Loss: 0.712732
+validation Loss: 0.7150 Acc: 0.4770
+Epoch 7/9
+----------
+train  loss: 0 : 0.7007874846458435
+Train Epoch: 7 [0/1981 (0%)]	Loss: 0.700787
+train Loss: 0.7138 Acc: 0.5159
+validation  loss: 0 : 0.5956166982650757
+Train Epoch: 7 [0/1981 (0%)]	Loss: 0.595617
+validation Loss: 0.7140 Acc: 0.5517
+Epoch 8/9
+----------
+train  loss: 0 : 0.6687507629394531
+Train Epoch: 8 [0/1981 (0%)]	Loss: 0.668751
+train Loss: 0.7181 Acc: 0.5321
+validation  loss: 0 : 0.7508480548858643
+Train Epoch: 8 [0/1981 (0%)]	Loss: 0.750848
+validation Loss: 0.7297 Acc: 0.4654
+Epoch 9/9
+----------
+train  loss: 0 : 0.7662597298622131
+Train Epoch: 9 [0/1981 (0%)]	Loss: 0.766260
+train Loss: 0.7167 Acc: 0.5088
+validation  loss: 0 : 0.6777249574661255
+Train Epoch: 9 [0/1981 (0%)]	Loss: 0.677725
+validation Loss: 0.7072 Acc: 0.5235
+Validation loss decreased (0.707181 --> 0.710929).  Saving model ...
+Training complete in 17m 21s
+Best val Acc: 0.000000
+Prediction:  52.5 %
